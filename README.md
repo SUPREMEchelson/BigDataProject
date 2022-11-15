@@ -7,7 +7,32 @@ Dans ce projet, nous allons nous intéresser à la corrélation entre l'équipe 
 Le projet est en stade de développement.
 
 # Technologie
-Le framework Haddop
+Haddop
+Spark
+Docker
+
+# Installation
+
+récupérer le projet :
+git clone git@github.com:mehdisellami/Helpme-Backend.git
+
+Ouvrer un cmd positionner vous dans le bon dossier
+
+Lancer les dockers :
+Docker-compose up
+
+Executé le namenode :
+docker exec -it namenode bash
+
+Créer un dossier DataFoot dans le namenode
+mkdir DataFoot
+
+
+
+
+
+
+
 
 # Auteur
 
