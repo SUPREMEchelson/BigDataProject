@@ -3,8 +3,8 @@
 
 # Description
 
-Le but du projet est de collecter et d'analyser des données footballistiques afin d'extraire des informations de performance.
-Dans ce projet, nous allons nous intéresser à la corrélation entre l'équipe qui gagne la ligue des champions et le joueur qui gagne le ballon d'or.
+A l'approche de la coupe du monde qui se déroulera au Qatar, nous avons fait le choix d'analyser les données des matchs de football. Le Football est un sport collectif très populaire. La coupe du monde est un championnat qui réuni les plus grandes équipes du monde.
+Le but du projet est de collecter et d'analyser des données footballistiques afin d'extraire des informations de performance. 
 
 # Etat de développement
 Le projet est en stade de développement.
@@ -18,6 +18,11 @@ Docker
 
 récupérer le projet :
 git clone git@github.com:mehdisellami/Helpme-Backend.git
+
+# Lancement des Docker
+
+Docker-compose up
+
 
 # Traitement Spark
 
