@@ -25,7 +25,7 @@ Docker
 récupérer le projet :
 git clone https://github.com/SUPREMEchelson/BigDataProject.git
 
-# Lancement de Spark et de Hadoop
+# Dockerisation de Hadoop et Spark
 
 Nous avons configurer un Docker compose  qui contient les dependances de Hadoop et de Spark. Pour lancer le docker compose il faut utiliser cette commande :
 Docker-compose up
