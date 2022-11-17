@@ -1,0 +1,121 @@
+-- phpMyAdmin SQL Dump
+-- version 4.1.4
+-- http://www.phpmyadmin.net
+--
+-- Client :  127.0.0.1
+-- Généré le :  Jeu 17 Novembre 2022 à 00:06
+-- Version du serveur :  5.6.15-log
+-- Version de PHP :  5.5.8
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Base de données :  `all_data`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `table 1`
+--
+
+CREATE TABLE IF NOT EXISTS `table 1` (
+  `Rank` varchar(4) DEFAULT NULL,
+  `Player` varchar(23) DEFAULT NULL,
+  `Club` varchar(25) DEFAULT NULL,
+  `Nationality` varchar(16) DEFAULT NULL,
+  `Points` varchar(6) DEFAULT NULL,
+  `Season` varchar(6) DEFAULT NULL,
+  `Winner` varchar(20) DEFAULT NULL,
+  `Winner Country` varchar(14) DEFAULT NULL,
+  `Winner Score` varchar(12) DEFAULT NULL,
+  `Finalist Score` varchar(14) DEFAULT NULL,
+  `Finalist` varchar(27) DEFAULT NULL,
+  `Finalist Country` varchar(16) DEFAULT NULL,
+  `Venue` varchar(67) DEFAULT NULL,
+  `Attendance` varchar(10) DEFAULT NULL,
+  `Best Scorer` varchar(26) DEFAULT NULL,
+  `Country Scorer` varchar(14) DEFAULT NULL,
+  `Club Scorer` varchar(27) DEFAULT NULL,
+  `Goals` varchar(5) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Contenu de la table `table 1`
+--
+
+INSERT INTO `table 1` (`Rank`, `Player`, `Club`, `Nationality`, `Points`, `Season`, `Winner`, `Winner Country`, `Winner Score`, `Finalist Score`, `Finalist`, `Finalist Country`, `Venue`, `Attendance`, `Best Scorer`, `Country Scorer`, `Club Scorer`, `Goals`) VALUES
+('1', 'Stanley Matthews', 'Blackpool', 'England', '47', '1956', 'Real Madrid', 'Spain', '4', '3', 'Stade de Reims', 'France', 'France Parc des Princes, Paris', '38239', 'MiloÅ¡ MilutinoviÄ‡', 'Yugoslavia', 'FK Partizan Belgrade', '8'),
+('1', 'Alfredo Di Stéfano', 'Real Madrid CF', 'Spain', '72', '1957', 'Real Madrid', 'Spain', '2', '0', 'Fiorentina', 'Italy', 'Spain Santiago BernabÃ©u Stadium, Madrid', '124000', 'Dennis Viollet', 'England', 'Manchester United', '9'),
+('1', 'Raymond Kopa', 'Real Madrid CF', 'France', '71', '1958', 'Real Madrid', 'Spain', '3', '2', 'Milan', 'Italy', 'Belgium Heysel Stadium, Brussels', '67000', 'Alfredo Di StÃ©fano', 'Spain', 'Real Madrid', '10'),
+('1', 'Alfredo Di Stéfano', 'Real Madrid CF', 'Spain', '80', '1959', 'Real Madrid', 'Spain', '2', '0', 'Stade de Reims', 'France', 'West Germany Neckarstadion, Stuttgart', '72000', 'Just Fountain', 'France', 'Reims Stadium', '10'),
+('1', 'Luis Suárez Miramontes', 'FC Barcelona', 'Spain', '54', '1960', 'Real Madrid', 'Spain', '7', '3', 'Eintracht Frankfurt', 'West Germany', 'Scotland Hampden Park, Glasgow', '127621', 'Ferenc PuskÃ¡s', 'Hungary', 'Real Madrid', '12'),
+('1', 'Omar Sívori', 'Juventus', 'Italy', '46', '1961', 'Benfica', 'Portugal', '3', '2', 'Barcelona', 'Spain', 'Switzerland Wankdorf Stadium, Bern', '26732', 'JosÃ© Ãguas', 'Portugal', 'Benfica', '11'),
+('1', 'Josef Masopust', 'Dukla Praha', 'Czechoslovakia', '65', '1962', 'Benfica', 'Portugal', '5', '3', 'Real Madrid', 'Spain', 'Netherlands Olympisch Stadion, Amsterdam', '61257', 'Heinz Strehl', 'West Germany', '1. FC Nuremberg', '8'),
+('1', 'Lev Yashin', 'Dynamo Moscow', 'Soviet Union', '73', '1963', 'Milan', 'Italy', '2', '1', 'Benfica', 'Portugal', 'England Wembley Stadium, London', '45715', 'JosÃ© Altafini', 'Italy', 'AC Milan', '14'),
+('1', 'Denis Law', 'Manchester United', 'Scotland', '61', '1964', 'Internazionale', 'Italy', '3', '1', 'Real Madrid', 'Spain', 'Austria Prater Stadium, Vienna', '71333', 'Vladimir KovaÄeviÄ‡', 'Yugoslavia', 'FK Partizan Belgrade', '7'),
+('1', 'Eusébio', 'Benfica', 'Portugal', '67', '1965', 'Internazionale', 'Italy', '1', '0', 'Benfica', 'Portugal', 'Italy San Siro, Milan', '89000', 'Eusebio', 'Portugal', 'Benfica', '9'),
+('1', 'Bobby Charlton', 'Manchester United', 'England', '81', '1966', 'Real Madrid', 'Spain', '2', '1', 'Partizan', 'Yugoslavia', 'Belgium Heysel Stadium, Brussels', '46745', 'Eusebio', 'Portugal', 'Benfica', '7'),
+('1', 'Flórián Albert', 'Ferencváros', 'Hungary', '68', '1967', 'Celtic', 'Scotland', '2', '1', 'Internazionale', 'Italy', 'Portugal EstÃ¡dio Nacional, Lisbon', '45000', 'Paul Van Himst', 'Belgium', 'RSC Anderlecht', '6'),
+('1', 'George Best', 'Manchester United', 'Northern Ireland', '61', '1968', 'Manchester United', 'England', '4', '1', 'Benfica', 'Portugal', 'England Wembley Stadium, London', '92225', 'Eusebio', 'Portugal', 'Benfica', '6'),
+('1', 'Gianni Rivera', 'Milan', 'Italy', '83', '1969', 'Milan', 'Italy', '3', '1', 'Ajax', 'Netherlands', 'Spain Santiago BernabÃ©u Stadium, Madrid', '31782', 'Dennis Law', 'Scotland', 'Manchester United', '9'),
+('1', 'Gerd Müller', 'Bayern Munich', 'West Germany', '77', '1970', 'Feyenoord', 'Netherlands', '2', '1', 'Celtic', 'Scotland', 'Italy San Siro, Milan', '53187', 'Mick Jones', 'England', 'Leeds United', '8'),
+('1', 'Johan Cruijff', 'Ajax', 'Netherlands', '116', '1971', 'Ajax', 'Netherlands', '2', '0', 'Panathinaikos', 'Greece', 'England Wembley Stadium, London', '83179', 'Antonis Antoniadis', 'Greece', 'Panathinaikos', '10'),
+('1', 'Franz Beckenbauer', 'Bayern Munich', 'West Germany', '81', '1972', 'Ajax', 'Netherlands', '2', '0', 'Internazionale', 'Italy', 'Netherlands De Kuip, Rotterdam', '61354', 'Silvester TakaÄ', 'Yugoslavia', 'Standard Liege', '5'),
+('1', 'Johan Cruijff', 'FC Barcelona', 'Netherlands', '96', '1973', 'Ajax', 'Netherlands', '1', '0', 'Juventus', 'Italy', 'Socialist Federal Republic of Yugoslavia Red Star Stadium, Belgrade', '89484', 'Gerd MÃ¼ller', 'West Germany', 'Bayern Munich', '11'),
+('1', 'Johan Cruijff', 'FC Barcelona', 'Netherlands', '116', '1974', 'Bayern Munich', 'West Germany', '4', '0', 'AtlÃ©tico Madrid', 'Spain', 'Belgium Heysel Stadium, Brussels', '72047', 'Gerd MÃ¼ller', 'West Germany', 'Bayern Munich', '8'),
+('1', 'Oleg Blokhin', 'Dynamo Kyiv', 'Soviet Union', '122', '1975', 'Bayern Munich', 'West Germany', '2', '0', 'Leeds United', 'England', 'France Parc des Princes, Paris', '48374', 'Gerd Muller', 'West Germany', 'Bayern Munich', '5'),
+('1', 'Franz Beckenbauer', 'Bayern Munich', 'West Germany', '91', '1976', 'Bayern Munich', 'West Germany', '1', '0', 'Saint-Ã‰tienne', 'France', 'Scotland Hampden Park, Glasgow', '54864', 'Jupp Heynckes', 'West Germany', 'Borussia MÃ¶nchengladbach', '6'),
+('1', 'Allan Simonsen', 'Borussia Mönchengladbach', 'Denmark', '74', '1977', 'Liverpool', 'England', '3', '1', 'Borussia MÃ¶nchengladbach', 'West Germany', 'Italy Stadio Olimpico, Rome', '52078', 'Gerd MÃ¼ller', 'West Germany', 'Bayern Munich', '5'),
+('1', 'Kevin Keegan', 'Hamburger SV', 'England', '87', '1978', 'Liverpool', 'England', '1', '0', 'Club Brugge', 'Belgium', 'England Wembley Stadium, London', '92500', 'Allan Simonsen', 'Denmark', 'Borussia MÃ¶nchengladbach', '5'),
+('1', 'Kevin Keegan', 'Hamburger SV', 'England', '118', '1979', 'Nottingham Forest', 'England', '1', '0', 'MalmÃ¶ FF', 'Sweden', 'West Germany Olympiastadion, Munich', '57500', 'Claudio Sulser', 'Swiss', 'Grasshopper Club Zurich', '11'),
+('1', 'Karl-Heinz Rummenigge', 'Bayern Munich', 'West Germany', '122', '1980', 'Nottingham Forest', 'England', '1', '0', 'Hamburg', 'West Germany', 'Spain Santiago BernabÃ©u Stadium, Madrid', '51000', 'Soren Lerby', 'Denmark', 'ajax Amsterdam', '10'),
+('1', 'Karl-Heinz Rummenigge', 'Bayern Munich', 'West Germany', '106', '1981', 'Liverpool', 'England', '1', '0', 'Real Madrid', 'Spain', 'France Parc des Princes, Paris', '48360', 'Karl-Heinz', 'West Germany', 'Bayern Munich', '6'),
+('1', 'Paolo Rossi', 'Juventus', 'Italy', '115', '1982', 'Aston Villa', 'England', '1', '0', 'Bayern Munich', 'West Germany', 'Netherlands De Kuip, Rotterdam', '46000', 'Dieter Hoeness', 'West Germany', 'Bayern Munich', '7'),
+('1', 'Michel Platini', 'Juventus', 'France', '110', '1983', 'Hamburg', 'West Germany', '1', '0', 'Juventus', 'Italy', 'Greece Olympic Stadium, Athens', '73500', 'Paolo Rossi', 'Italy', 'Juventus', '6'),
+('1', 'Michel Platini', 'Juventus', 'France', '128', '1984', 'Liverpool', 'England', '1', '1', 'Roma', 'Italy', 'Italy Stadio Olimpico, Rome', '69693', 'Victor Sokol', 'Soviet Union', 'FK Dynamo Minsk', '6'),
+('1', 'Michel Platini', 'Juventus', 'France', '127', '1985', 'Juventus', 'Italy', '1', '0', 'Liverpool', 'England', 'Belgium Heysel Stadium, Brussels', '58000', 'Michel Platini', 'France', 'Juventus', '7'),
+('1', 'Igor Belanov', 'Dynamo Kyiv', 'Soviet Union', '84', '1986', 'Steaua BucureÈ™ti', 'Romania', '0', '0', 'Barcelona', 'Spain', 'Spain Estadio RamÃ³n SÃ¡nchez PizjuÃ¡n, Seville', '70000', 'TorbjÃ¶rn Nilsson', 'Sweden', 'IFK Gothenburg', '7'),
+('1', 'Ruud Gullit', 'Milan', 'Netherlands', '106', '1987', 'Porto', 'Portugal', '2', '1', 'Bayern Munich', 'West Germany', 'Austria Prater Stadium, Vienna', '57500', 'Borislav CvetkoviÄ‡', 'Yugoslavia', 'Red Star of Belgrade', '7'),
+('1', 'Marco van Basten', 'Milan', 'Netherlands', '129', '1988', 'PSV Eindhoven', 'Netherlands', '0', '0', 'Benfica', 'Portugal', 'West Germany Neckarstadion, Stuttgart', '68000', 'Rui Ãguas', 'Portugal', 'Benfica', '4'),
+('1', 'Marco van Basten', 'Milan', 'Netherlands', '119', '1989', 'Milan', 'Italy', '4', '0', 'Steaua BucureÈ™ti', 'Romania', 'Spain Camp Nou, Barcelona', '97000', 'Marco van Basten', 'Netherlands', 'AC Milan', '10'),
+('1', 'Lothar Matthäus', 'Internazionale', 'Germany', '137', '1990', 'Milan', 'Italy', '1', '0', 'Benfica', 'Portugal', 'Austria Prater Stadium, Vienna', '57558', 'Jean-Pierre Papin', 'France', 'Olympic Marseille', '6'),
+('1', 'Jean Pierre Papin', 'Olympique Marseille', 'France', '141', '1991', 'Red Star Belgrade', 'Yugoslavia', '0', '0', 'Marseille', 'France', 'Italy Stadio San Nicola, Bari', '56000', 'Jean-Pierre Papin', 'France', 'Olympic Marseille', '6'),
+('1', 'Marco van Basten', 'Milan', 'Netherlands', '98', '1992', 'Barcelona', 'Spain', '1', '0', 'Sampdoria', 'Italy', 'England Wembley Stadium, London', '70827', 'Jean-Pierre Papin', 'France', 'Olympic Marseille', '7'),
+('1', 'Roberto Baggio', 'Juventus', 'Italy', '142', '1993', 'Marseille', 'France', '1', '0', 'Milan', 'Italy', 'Germany Olympiastadion, Munich', '64400', 'Romario', 'Brazil', 'PSV Eindhoven', '7'),
+('1', 'Hristo Stoichkov', 'FC Barcelona', 'Bulgaria', '210', '1994', 'Milan', 'Italy', '4', '0', 'Barcelona', 'Spain', 'Greece Olympic Stadium, Athens', '70000', 'Ronald Koeman', 'Netherlands', 'FC Barcelona', '8'),
+('1', 'George Weah', 'Milan', 'Liberia', '144', '1995', 'Ajax', 'Netherlands', '1', '0', 'Milan', 'Italy', 'Austria Ernst-Happel-Stadion, Vienna', '49730', 'George Weah', 'Liberia', 'Paris Saint Germain', '7'),
+('1', 'Matthias Sammer', 'Borussia Dortmund', 'Germany', '144', '1996', 'Juventus', 'Italy', '1', '1', 'Ajax', 'Netherlands', 'Italy Stadio Olimpico, Rome', '70000', 'Jari Litmanen', 'Finland', 'ajax Amsterdam', '9'),
+('1', 'Ronaldo', 'Internazionale', 'Brazil', '222', '1997', 'Borussia Dortmund', 'Germany', '3', '1', 'Juventus', 'Italy', 'Germany Olympiastadion, Munich', '59000', 'Milinko PantiÄ‡', 'Yugoslavia', 'Atletico Madrid', '5'),
+('1', 'Zinedine Zidane', 'Juventus', 'France', '244', '1998', 'Real Madrid', 'Spain', '1', '0', 'Juventus', 'Italy', 'Netherlands Amsterdam Arena, Amsterdam', '48500', 'Alessandro Del Piero', 'Italy', 'Juventus', '10'),
+('1', 'Rivaldo', 'FC Barcelona', 'Brazil', '219', '1999', 'Manchester United', 'England', '2', '1', 'Bayern Munich', 'Germany', 'Spain Camp Nou, Barcelona', '90245', 'Shevchenko', 'Ukraine', 'Dynamo Kiev', '8'),
+('1', 'Luis Figo', 'Real Madrid CF', 'Portugal', '197', '2000', 'Real Madrid', 'Spain', '3', '0', 'Valencia', 'Spain', 'France Stade de France, Saint-Denis', '80000', 'Rivaldo', 'Brazil', 'FC Barcelone', '10'),
+('1', 'Michael Owen', 'Liverpool', 'England', '176', '2001', 'Bayern Munich', 'Germany', '1', '1', 'Valencia', 'Spain', 'Italy San Siro, Milan', '71500', 'Raul', 'Spain', 'Real Madrid', '7'),
+('1', 'Ronaldo', 'Real Madrid CF', 'Brazil', '169', '2002', 'Real Madrid', 'Spain', '2', '1', 'Bayer Leverkusen', 'Germany', 'Scotland Hampden Park, Glasgow', '50499', 'Ruud van Nistelrooy', 'Netherlands', 'Manchester United', '10'),
+('1', 'Pavel Nedved', 'Juventus', 'Czech Republic', '190', '2003', 'Milan', 'Italy', '0', '0', 'Juventus', 'Italy', 'England Old Trafford, Manchester', '62315', 'Ruud van Nistelrooy', 'Netherlands', 'Manchester United', '12'),
+('1', 'Andriy Shevchenko', 'Milan', 'Ukraine', '175', '2004', 'Porto', 'Portugal', '3', '0', 'Monaco', 'France', 'Germany Arena AufSchalke, Gelsenkirchen', '53053', 'Fernando Morientes', 'Spain', 'AS Monaco', '9'),
+('1', 'Ronaldinho', 'FC Barcelona', 'Brazil', '225', '2005', 'Liverpool', 'England', '3', '3', 'Milan', 'Italy', 'Turkey AtatÃ¼rk Olympic Stadium, Istanbul', '69000', 'Ruud van Nistelrooy', 'Netherlands', 'Manchester United', '8'),
+('1', 'Fabio Cannavaro', 'Real Madrid CF', 'Italy', '173', '2006', 'Barcelona', 'Spain', '2', '1', 'Arsenal', 'England', 'France Stade de France, Saint-Denis', '79610', 'Andriy Shevchenko', 'Ukraine', 'AC Milan', '9'),
+('1', 'Kaká', 'Milan', 'Brazil', '444', '2007', 'Milan', 'Italy', '2', '1', 'Liverpool', 'England', 'Greece Olympic Stadium, Athens', '63000', 'Kaka', 'Brazil', 'AC Milan', '10'),
+('1', 'Cristiano Ronaldo', 'Manchester United', 'Portugal', '446', '2008', 'Manchester United', 'England', '1', '1', 'Chelsea', 'England', 'Russia Luzhniki Stadium, Moscow', '67310', 'Cristiano Ronaldo', 'Portugal', 'Manchester United', '8'),
+('1', 'Lionel Messi', 'FC Barcelona', 'Argentina', '473', '2009', 'Barcelona', 'Spain', '2', '0', 'Manchester United', 'England', 'Italy Stadio Olimpico, Rome', '62467', 'Lionel Messi', 'Argentina', 'FC Barcelona', '9'),
+('1', 'Lionel Messi', 'FC Barcelona', 'Argentina', '', '2010', 'Internazionale', 'Italy', '2', '0', 'Bayern Munich', 'Germany', 'Spain Santiago BernabÃ©u Stadium, Madrid', '73490', 'Lionel Messi', 'Argentina', 'FC Barcelona', '8'),
+('1', 'Lionel Messi', 'FC Barcelona', 'Argentina', '', '2011', 'Barcelona', 'Spain', '3', '1', 'Manchester United', 'England', 'England Wembley Stadium, London', '87695', 'Lionel Messi', 'Argentina', 'FC Barcelona', '12'),
+('1', 'Lionel Messi', 'FC Barcelona', 'Argentina', '', '2012', 'Chelsea', 'England', '1', '1', 'Bayern Munich', 'Germany', 'Germany Allianz Arena, Munich', '62500', 'Lionel Messi', 'Argentina', 'FC Barcelona', '14'),
+('1', 'Cristiano Ronaldo', 'Real Madrid CF', 'Portugal', '', '2013', 'Bayern Munich', 'Germany', '2', '1', 'Borussia Dortmund', 'Germany', 'England Wembley Stadium, London', '86298', 'Cristiano Ronaldo', 'Portugal', 'Real Madrid', '12'),
+('1', 'Cristiano Ronaldo', 'Real Madrid CF', 'Portugal', '', '2014', 'Real Madrid', 'Spain', '4', '1', 'AtlÃ©tico Madrid', 'Spain', 'Portugal EstÃ¡dio da Luz, Lisbon', '60976', 'Cristiano Ronaldo', 'Portugal', 'Real Madrid', '17'),
+('1', 'Lionel Messi', 'FC Barcelona', 'Argentina', '1840', '2015', 'Barcelona', 'Spain', '3', '1', 'Juventus', 'Italy', 'Germany Olympiastadion, Berlin', '70442', 'Cristiano Ronaldo', 'Portugal', 'Real Madrid', '10'),
+('1', 'Cristiano Ronaldo', 'Real Madrid CF', 'Portugal', '745', '2016', 'Real Madrid', 'Spain', '1', '1', 'AtlÃ©tico Madrid', 'Spain', 'Italy San Siro, Milan', '71942', 'Cristiano Ronaldo', 'Portugal', 'Real Madrid', '16'),
+('1', 'Cristiano Ronaldo', 'Real Madrid CF', 'Portugal', '946', '2017', 'Real Madrid', 'Spain', '4', '1', 'Juventus', 'Italy', 'Wales Millennium Stadium, Cardiff', '65842', 'Cristiano Ronaldo', 'Portugal', 'Real Madrid', '12'),
+('1', 'Luka Modrić', 'Real Madrid CF', 'Croatia', '753', '2018', 'Real Madrid', 'Spain', '3', '1', 'Liverpool FC', 'England', 'Stade olympique, Kiev', '61561', 'Cristiano Ronaldo', 'Portugal', 'Real Madrid', '15');
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
