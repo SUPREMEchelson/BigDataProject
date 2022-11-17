@@ -1,5 +1,5 @@
 
-<a href="https://github.com/SUPREMEchelson/BigDataProject/blob/main/all_data/bigDataimage.jpg">link</a>
+![bigDataimage](https://user-images.githubusercontent.com/43779857/202323288-ec72d648-30ab-425e-b9b4-aadce2242500.jpg)
 
 # Description
 
