@@ -23,7 +23,7 @@ Docker
 # Installation
 
 récupérer le projet :
-git clone git@github.com:mehdisellami/Helpme-Backend.git
+git clone https://github.com/SUPREMEchelson/BigDataProject.git
 
 # Lancement de Spark et de Hadoop
 
